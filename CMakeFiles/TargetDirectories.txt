@@ -1,3 +1,0 @@
-/home/eduardo/Documentos/Projetos/FreeAI/CMakeFiles/edit_cache.dir
-/home/eduardo/Documentos/Projetos/FreeAI/CMakeFiles/rebuild_cache.dir
-/home/eduardo/Documentos/Projetos/FreeAI/CMakeFiles/FreeAI.dir

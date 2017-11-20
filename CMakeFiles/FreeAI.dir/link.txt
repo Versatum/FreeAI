@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/FreeAI.dir/src/population.cpp.o CMakeFiles/FreeAI.dir/src/ag.cpp.o CMakeFiles/FreeAI.dir/src/main.cpp.o CMakeFiles/FreeAI.dir/src/individual.cpp.o  -o FreeAI -rdynamic 
