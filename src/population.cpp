@@ -25,26 +25,34 @@
 
 #include "population.h"
 
-// Population default constructor
-Population::Population(int _s, Individual *p)
+// Enter population size
+template<class Individual>
+Population<Individual>::Population(int _s)
 {
     pop = new Individual[_s];
+    _size = _s;
+   
 }
 
+// Enter de size and the Individual array 
+template<class Individual>
+Population<Individual>::Population(int _s, Individual *p)
+{
+    _size = _s;
+    pop = p;
+}
+
+
 // Return the popoulation size
-int Population::size(void)
+template<class Individual>
+int Population<Individual>::size(void)
 {
     return _size;
 }
 
-// Default Population destructor
-Population::~Population(void)
-{
-    delete[] pop;
-}
-
-//
-Individual & Population::operator[](int index)
+// Index oprator overloading
+template<class Individual>
+Individual & Population<Individual>::operator[](int index)
 {
     return pop[index];
 }

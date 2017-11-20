@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eduardo/Documentos/Projetos/FreeAI/src/ag.cpp
+iostream
+-
+ag.h
+/home/eduardo/Documentos/Projetos/FreeAI/src/ag.h
+
+/home/eduardo/Documentos/Projetos/FreeAI/src/ag.h
+
+/home/eduardo/Documentos/Projetos/FreeAI/src/individual.cpp
+individual.h
+/home/eduardo/Documentos/Projetos/FreeAI/src/individual.h
+
+/home/eduardo/Documentos/Projetos/FreeAI/src/individual.h
+
+/home/eduardo/Documentos/Projetos/FreeAI/src/main.cpp
+population.h
+/home/eduardo/Documentos/Projetos/FreeAI/src/population.h
+ag.h
+/home/eduardo/Documentos/Projetos/FreeAI/src/ag.h
+
+/home/eduardo/Documentos/Projetos/FreeAI/src/population.cpp
+population.h
+/home/eduardo/Documentos/Projetos/FreeAI/src/population.h
+
+/home/eduardo/Documentos/Projetos/FreeAI/src/population.h
+

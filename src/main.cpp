@@ -21,15 +21,16 @@
  * SOFTWARE.
  */
 
-#ifndef AG_H
-#define AG_H
+#include "population.h"
 
-class MyClass
-{
-public:
+#include "ag.h"
 
-    MyClass(void);
+int main(int argc, char *argv[])
+{ 
+    
+    MyClass a;
 
-};
+    Population<MyClass> pop = Population<MyClass>();
 
-#endif
+    return 0;
+}

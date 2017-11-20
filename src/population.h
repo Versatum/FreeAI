@@ -30,18 +30,33 @@ template <class Individual>
 class Population 
 {
 public:
-    Population(int _s, Individual *p=0);
-    ~Population(void);
+    
+    Population(void)
+    {
+        pop = 0;
+        _size =0;
+    }
+
+    Population(int _s);
+    
+    Population(int _s, Individual *p);
+
+    ~Population(void)
+    {
+        delete[] pop;
+    }
+
 
     Individual &operator[](int index);
 
     int size(void);
 
 private:
+    
     int _size;
+    
     Individual *pop;
 };
-
 
 
 #endif
