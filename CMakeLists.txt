@@ -15,7 +15,7 @@ include_directories(${PROJECT_SOURCE_DIR})
 #Can manually add the sources using the set command as follows:
 set(SOURCES
 
-        ${PROJECT_SOURCE_DIR}/main.cpp
+    ${PROJECT_SOURCE_DIR}/main.cpp
     ${PROJECT_SOURCE_DIR}/individual.cpp
     ${PROJECT_SOURCE_DIR}/population.cpp
 )
